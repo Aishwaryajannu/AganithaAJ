@@ -1,78 +1,70 @@
-# AganithaAJ
-Book-finder project
-# Book Finder Application
+# Getting Started with Create React App
 
-A web application that helps users search and discover books using the Open Library API.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- 🔍 **Multiple Search Methods**: Search by title, author, or subject
-- 📚 **Rich Book Information**: View covers, authors, publication years, and ratings
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
-- ⚡ **Fast & Intuitive**: Real-time search with loading states and error handling
-- 🎨 **Modern UI**: Clean, professional interface with Tailwind CSS
+In the project directory, you can run:
 
-## Technology Stack
+### `npm start`
 
-- **Framework**: React (with Hooks)
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **API**: Open Library Search API
-- **State Management**: React useState
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## How to Use
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Select your search type (Title, Author, or Subject)
-2. Enter your search term
-3. Click "Search" or press Enter
-4. Browse through the results
-5. Click "View Details" to see more information on Open Library
+### `npm test`
 
-## API Integration
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The application uses the Open Library Search API:
-- Title Search: `https://openlibrary.org/search.json?title={query}`
-- Author Search: `https://openlibrary.org/search.json?author={query}`
-- Subject Search: `https://openlibrary.org/search.json?subject={query}`
+### `npm run build`
 
-## Key Features Implemented
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### User Experience
-- **Search Flexibility**: Users can switch between title, author, and subject searches
-- **Visual Feedback**: Loading indicators, error messages, and empty states
-- **Responsive Grid**: Adapts from 1 to 4 columns based on screen size
-- **Keyboard Support**: Press Enter to search
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Error Handling
-- Network error handling
-- Empty search validation
-- No results messaging
-- Image fallback for missing covers
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Code Quality
-- Clean, readable component structure
-- Proper state management
-- Efficient API calls with error handling
-- Semantic HTML and accessibility considerations
+### `npm run eject`
 
-## Future Enhancements
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Potential features for future versions:
-- Pagination for more results
-- Advanced filters (year range, language)
-- Favorites/reading list functionality
-- Book details modal
-- Search history
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Developer Notes
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-This application was built as part of a take-home challenge, demonstrating:
-- Understanding of user needs and requirements
-- Clean code practices and component organization
-- API integration and error handling
-- Responsive design principles
-- Modern React patterns and hooks
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-Built with ❤️ for book lovers everywhere
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
